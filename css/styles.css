@@ -84,3 +84,106 @@ select:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
 }
+
+.calc-inner {
+  margin-top: 50px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #ddd;
+}
+.calc-wrapper {
+  text-align: center;
+
+}
+
+.calc-title {
+  color: #fff;
+  background-color: darkred;
+  font-weight: bold;
+
+}
+
+.calc-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-item-name {
+  margin-right: 20px;
+}
+
+.cacl-input {
+  width: 80px;
+}
+
+.tip-btn {
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.tip-num {
+  width: 40px;
+}
+
+.bill {
+  margin-bottom: 40px;
+}
+
+.tip-name {
+  margin-right: 20px;
+}
+
+.bill-name {
+  margin: 0;
+}
+
+.tip-italic {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.calc-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #777;
+  cursor: pointer;
+}
+
+.calc-total {
+  padding: 10px;
+  border: 1px solid #777;
+  background-color: #fff;
+}
+
+.calc-total-name {
+  margin:0;
+}
+
+.content-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.item-name {
+  margin: 0;
+  margin-bottom: 15px;
+  margin-right: 15px;
+
+}
+.tip-price {
+  margin: 0;
+  margin-bottom: 15px;
+}
