@@ -6,9 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Project</title>
+  <title>Tip Calculator</title>
 </head>
 <body>
+  <div class="container">
+    <div class="calc-wrapper">
+      <div class="calc-title">Tip Calculator</div>
+
+      <div class="calc-item">
+        <p class="calc-item-name">Bill Amount $</p>
+        <input type="number" class="cacl-input" placeholder="" aria-label="Calculator">
+      </div>
+
+      <div class="calc-item tip">
+        <p class="calc-item-name">Tip %</p>
+        <div class="tip-items">
+          <button type="button" class="tip-btn">-</button>
+          <input type="number" class="tip-num" value="18" aria-label="Tip Number">
+          <button type="button" class="tip-btn">+</button>
+        </div>
+
+
+      </div>
+      <div class="calc-item tip">
+        <div class="tip-name">
+          <p class="calc-item-name">Split the Bill?</p>
+          <p class="tip-italic">number of people</p>
+        </div>
+        <div class="tip-items">
+          <button type="button" class="tip-btn">-</button>
+          <input type="number" class="tip-num" value="1" aria-label="Tip Number">
+          <button type="button" class="tip-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="calc-btns">
+      <button type="button" class=" button clear-btn">Clear</button>
+      <button type="button" class="button calc-btn">Calculate</button>
+    </div>
+
+    <div class="calc-total">
+      <p class="calc-total-name">Answer:</p>
+      <div class="calc-total-content content">
+        <div class="content-item">
+          <p class="item-name">Tip Total:</p>
+          <p class="tip-price">$ 0.00</p>
+        </div>
+        <div class="content-item">
+          <p class="item-name">Total (Bill + Tip):</p>
+          <p class="tip-price">$ 0.00</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 
   <script src="js/main.js"></script>
