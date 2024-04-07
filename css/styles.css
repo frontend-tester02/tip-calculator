@@ -175,6 +175,14 @@ select:-webkit-autofill:focus {
   margin:0;
 }
 
+.calc-total-content {
+  margin-top: 15px;
+}
+
+.content {
+  border-bottom: 1px solid #777;
+}
+
 .content-item {
   display: flex;
   justify-content: center;
