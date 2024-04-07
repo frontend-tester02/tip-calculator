@@ -116,7 +116,7 @@ select:-webkit-autofill:focus {
   margin-right: 20px;
 }
 
-.cacl-input {
+.calc-input {
   width: 80px;
 }
 
@@ -126,6 +126,10 @@ select:-webkit-autofill:focus {
 }
 
 .tip-num {
+  width: 40px;
+}
+
+.tip-num-person {
   width: 40px;
 }
 
@@ -177,12 +181,14 @@ select:-webkit-autofill:focus {
   align-items: center;
 
 }
+
 .item-name {
   margin: 0;
   margin-bottom: 15px;
   margin-right: 15px;
 
 }
+
 .tip-price {
   margin: 0;
   margin-bottom: 15px;
